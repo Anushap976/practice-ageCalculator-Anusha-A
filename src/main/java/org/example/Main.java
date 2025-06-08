@@ -13,7 +13,7 @@ public class Main {
         } else if (yearsLeft == 0) {
             System.out.println("Congratulations! you are 100 years old this year.");
         } else {
-            System.out.println("You turned to 100" + Math.abs(yearsLeft) + "years ago!");
+            System.out.println("You turned to 100 " + Math.abs(yearsLeft) + " years ago!");
         }
 
         scanner.close();
